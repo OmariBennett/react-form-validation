@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
+import FormSignup from './FormSignup';
 
 export default function Form() {
 	return (
 		<div>
-			<h1>Hola World!</h1>
+			<FormSignup />
 		</div>
 	);
 }
